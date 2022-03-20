@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Makaka Games/XR Survival Shooter/Scenes/Menu_ARSurvivalShooter.unity
+    guid: 96d4d194380b5469baf6cb4a43e61b1c
+  - enabled: 0
+    path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Scenes/LoadScreen.unity
+    guid: 9ea0e271d27a4df6b952de065414d326
+  - enabled: 0
+    path: Assets/Makaka Games/XR Survival Shooter/Scenes/Game_ARSurvivalShooter.unity
+    guid: 70e3cf371cfff46629368e259e6ae2a2
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 45cb222bbb4d0412eb8ea8e63fb85509,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 49e1783d777aa434780df72a6bdb7c05,
+      type: 2}
