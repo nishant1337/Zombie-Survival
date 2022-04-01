@@ -21,7 +21,7 @@ public class ShootScript : MonoBehaviour
     // Update is called once per frame
      void Update()
     {    
-new WaitForSeconds(10);
+        new WaitForSeconds(10);
         //animator.Play("death_01");
     }
     public void Shoot(){
