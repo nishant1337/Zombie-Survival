@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Option Menu.unity
+    path: Assets/Scenes/Restart.unity
     guid: a4a7bf892e78948a180620aad6ce180d
+  - enabled: 1
+    path: Assets/Scenes/Option Menu.unity
+    guid: f8e9c365f932343278489de7afef2380
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 45cb222bbb4d0412eb8ea8e63fb85509,
       type: 2}

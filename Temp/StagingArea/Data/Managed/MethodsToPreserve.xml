@@ -1,0 +1,20 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameMenu">
+			<method name="optionButton"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="closeButton"/>
+			<method name="closeButton"/>
+			<method name="playButton"/>
+			<method name="playButton"/>
+		</type>
+		<type fullname="RestartMenu">
+			<method name="closeButtonFromRestart"/>
+			<method name="restartButton"/>
+		</type>
+		<type fullname="ShootScript">
+			<method name="Shoot"/>
+		</type>
+	</assembly>
+</linker>

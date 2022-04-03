@@ -9,6 +9,5 @@ public class MovementScript : MonoBehaviour
     void Update()
     {
      transform.Translate(Vector3.back  * Time.deltaTime*( (LevelScript.levelValue)/4 + 0.3f));
-     //transform.Translate(Vector3.back  * Time.deltaTime*0.3f);
     }
 }

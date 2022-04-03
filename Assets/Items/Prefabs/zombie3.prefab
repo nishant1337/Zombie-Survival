@@ -483,9 +483,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 7756372667892764449}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: -1.0789111, y: -0.045870602, z: 0}
+    m_Extent: {x: 0.91433764, y: 1.800637, z: 0}
+  m_DirtyAABB: 0
 --- !u!1 &4922459948454488219
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,9 +798,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 7756372667892764449}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0.17459464, y: 0.46633965, z: 0}
+    m_Extent: {x: 1.576031, y: 1.9912009, z: 0}
+  m_DirtyAABB: 0
 --- !u!1 &6439519569524270099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,9 +1065,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 7756372667892764449}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0.54027474, y: -2.0145519, z: 0}
+    m_Extent: {x: 1.0112767, y: 1.5094225, z: 0}
+  m_DirtyAABB: 0
 --- !u!1 &7915587250352419212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,9 +1168,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 7756372667892764449}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: 0.92691064, y: -0.12996227, z: 0}
+    m_Extent: {x: 0.536407, y: 1.6499763, z: 0}
+  m_DirtyAABB: 0
 --- !u!1 &8028504333613449318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,9 +1181,9 @@ GameObject:
   m_Component:
   - component: {fileID: 468392791924076206}
   - component: {fileID: 3715820047659455768}
-  - component: {fileID: 7640785846683244211}
   - component: {fileID: -169747304417623734}
   - component: {fileID: 6373451161640651427}
+  - component: {fileID: 6525897821109033729}
   m_Layer: 0
   m_Name: zombie3
   m_TagString: Untagged
@@ -1227,18 +1227,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7640785846683244211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028504333613449318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0faf4591b5dab4468a0df7956ef8f2d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &-169747304417623734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1266,6 +1254,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arCamera: {fileID: 0}
   smoke: {fileID: 0}
+--- !u!114 &6525897821109033729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028504333613449318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb3ac18a058481ea830c88a4bb56ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8539148842809538833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,9 +1431,9 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 7756372667892764449}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_DirtyAABB: 1
+    m_Center: {x: -0.49512953, y: -2.0236912, z: 0}
+    m_Extent: {x: 1.0081816, y: 1.5197381, z: 0}
+  m_DirtyAABB: 0
 --- !u!1 &9007099758406823721
 GameObject:
   m_ObjectHideFlags: 0
