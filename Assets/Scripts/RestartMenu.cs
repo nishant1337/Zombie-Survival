@@ -9,7 +9,10 @@ public class RestartMenu : MonoBehaviour
 
     public void restartButton(){
 //SceneManager.LoadScene("GameScene");
-        SceneManager.LoadScene("Main Menu");
+        HealthScript.healthValue=10000;
+        LevelScript.levelValue=1;
+        ScoreScript.scoreValue=0;
+        SceneManager.LoadScene("GameScene");
 
     }
 
